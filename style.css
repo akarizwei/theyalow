@@ -581,3 +581,340 @@ img[alt="icon3"] {
 .tweets-wrapper {
     display: none;
 }
+
+@media screen and (max-width: 1300px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        width: 640px;
+    }
+
+    .center {
+        width: 640px;
+
+    }
+
+    .vid-background {
+        height: auto;
+    }
+
+    .vid-text-block {
+        display: none;
+    }
+
+    .header {
+        width: auto;
+        padding: 0;
+        height: 62px;
+        align-items: stretch;
+    }
+
+    .logo {
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: start;
+        width: 178px;
+        height: auto;
+        background: url("assets/img/mobile-logo-background.png");
+        padding-left: 10px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 19px;
+        position: initial;
+        padding-left: 6px;
+        padding-top: 6px;
+    }
+
+    .navigation {
+        margin: 0;
+        box-shadow: initial;
+        height: auto;
+        background: url("assets/img/mobile-nav-background.png");
+    }
+
+    .navigation button {
+        background: rgba(0, 0, 0, 0);
+        font-weight: normal;
+        font-size: 19px;
+    }
+
+    .nav-button-1 {
+        width: 38%;
+        flex-grow: initial;
+    }
+
+    .nav-icon-1 {
+        left: 22px;
+    }
+
+    .nav-button-text1 {
+        left: 5px;
+    }
+
+    .nav-button-2 {
+        width: 29%;
+        flex-grow: initial;
+    }
+
+    .nav-icon-2 {
+        left: 5px;
+    }
+
+    /*.nav-button-text2{*/
+    /*left: 5px;*/
+    /*}*/
+    .nav-button-3 {
+        width: 33%;
+        flex-grow: initial;
+    }
+
+    .nav-icon-3 {
+        left: 15px;
+    }
+
+    .nav-button-text3 {
+        position: relative;
+        left: 7px;
+    }
+
+    .section-vid {
+        margin: 0;
+    }
+
+    .section-vid button {
+        display: none;
+    }
+
+    .section-vid video {
+        width: 100%;
+        height: auto;
+        position: initial;
+    }
+
+    .section-icon {
+        height: 169px;
+        box-shadow: none;
+    }
+
+    .section-icon::before {
+
+    }
+
+    .div-icon > :first-child {
+        border-left: 0;
+    }
+
+    .icon-wrapper {
+        height: auto;
+        border: 0;
+        justify-content: center;
+    }
+
+    img[alt="icon1"] {
+        top: 3px;
+        right: 15px;
+        height: 62px;
+        /*padding-bottom: 8px;*/
+
+    }
+
+    img[alt="icon2"] {
+        left: 9px;
+        bottom: -4px;
+        height: 70px;
+    }
+
+    img[alt="icon3"] {
+        top: 4px;
+        right: 4px;
+        height: 70px;
+    }
+
+    .icon-text {
+        font-size: 23px;
+        margin: 11px 0;
+    }
+
+    .icon-text-1 {
+        top: 9px;
+        left: -11px;
+    }
+
+    .icon-text-2 {
+        bottom: -5px;
+    }
+
+    .icon-text-3 {
+        top: 5px;
+        right: -2px;
+    }
+
+    .icon-wrapper {
+        display: flex;
+    }
+
+    .section-slider {
+        height: auto;
+        background: none;
+        box-shadow: none;
+    }
+
+    .section-slider h2, .slidecontainer, .slider-date {
+        display: none;
+    }
+
+    .section-slider-middle {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 232px 232px;
+        row-gap: 9px;
+        margin-top: 9px;
+    }
+
+    .slider-middle-block {
+        width: auto;
+        margin: 0 9px;
+    }
+
+    .twitter {
+        margin: 0;
+        width: auto;
+        background: #F5C507;
+    }
+
+    .twitter-num {
+        display: none;
+    }
+
+    .tweets-wrapper {
+        padding-top: 11px;
+        padding-left: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: left;
+        background: #F5C507;
+    }
+
+    .tweets {
+        width: 217px;
+        height: 28px;
+        color: #8F8E8E;
+        font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+        font-size: 13px;
+        margin-left: 29px;
+        padding-top: 7px;
+    }
+
+    .tweet-1 {
+        width: 285px;
+        height: 43px;
+        background: url("assets/img/tweet-background1.png") no-repeat center;
+    }
+
+    .tweet-2 {
+        width: 285px;
+        height: 43px;
+        background: url("assets/img/tweet-background2.png") no-repeat center;
+    }
+
+    .tweet-3 {
+        width: 285px;
+        height: 43px;
+        background: url("assets/img/tweet-background3.png") no-repeat center;
+    }
+
+    .twitter img {
+        top: 10px;
+        left: 6px;
+    }
+
+    /*.tweets::after {*/
+    /*content: "Daily Mobile UI Design Inspiration #1 via @cssauthor";*/
+    /*background: url("assets/img/tweet-background.png") center;*/
+    /*opacity: 0.6;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*position: absolute;*/
+    /*z-index: 0;*/
+    /*}*/
+    .twitter-input-wrapper {
+        display: flex;
+    }
+
+    .twitter-input {
+        width: 203px;
+        height: 26px;
+        border-radius: 10px 0 0 10px;
+        margin-left: 15px;
+    }
+
+    .input-submit {
+        position: relative;
+        /* display: inline-block; */
+        /* float: right; */
+        right: 10px;
+        cursor: pointer;
+        height: 30px;
+        width: 70px;
+        background: #D99815;
+        border-radius: 0 10px 10px 0;
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+
+    .section-adaptive {
+        background: #474747;
+        height: 464px;
+    }
+
+    .section-adaptive-round {
+        padding: 45px 6px;
+        left: -4%;
+        top: 9.5%;
+    }
+
+    .section-adaptive h2 {
+        margin-top: 29px;
+        word-spacing: 0px;
+    }
+
+    .section-adaptive-list {
+        display: none;
+    }
+
+    .section-adaptive-middle {
+        padding-top: 71px;
+    }
+
+    .section-adaptive-middle img {
+        right: -8px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 7px 10px 10px 68px;
+    }
+
+    .footer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer p {
+        font-size: 17px;
+    }
+}
