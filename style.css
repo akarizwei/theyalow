@@ -50,7 +50,9 @@
     align-items: center;
     margin: 0 auto;
 }
-
+.invisible{
+    font-size: 0px;
+}
 .header {
     width: 1024px;
     margin: 0 auto;
